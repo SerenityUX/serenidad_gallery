@@ -58,13 +58,13 @@ export default function HomePage() {
         <Box sx={{ backgroundImage: `url("/images/coolBackground.png")`, minHeight: "100vh", objectFit: "cover", backgroundSize: "cover" }}>
           <Flex sx={{ flexDirection: ["column", "column", "column", "row"], alignItems: ["start", "start", "start", "center"], gap: 32, paddingTop: 72, marginBottom: 48, mx: [4, 4, 4, 196]}}>
             <p>
-            <Text sx={{ fontSize: 72,  display: "flex",  width: "100%", letterSpacing: -8, fontWeight: 600, lineHeight: 1 }}>
+            <Text sx={{ fontSize: 72, color: "#000",  display: "flex",  width: "100%", letterSpacing: -8, fontWeight: 600, lineHeight: 1 }}>
               Serenidad
             </Text>
             </p>
             <Image src="/images/smileVector.svg" sx={{ height: "64px",  display: ["none", "none", "none", "flex"], width: "33%" }} />
             <p>
-            <Text sx={{ fontSize: 22, display: "flex", width: "100%" }}>
+            <Text sx={{ fontSize: 22, color: "#000", display: "flex", width: "100%" }}>
               Dieter & Thomas building obscure virtual reality media that bring smiles, laughter, and serenity.
             </Text>
             </p>
